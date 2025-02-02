@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff), format("woff");
+}
+.container {
+  margin: 0 auto;
+  max-width: 1650px;
+}
+.top {
+  background-image: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: 90px;
+  height: 85vh;
+  &__titleGroup {
+  }
+
+  &__titleGroup-title {
+    font-family: "Nekst-Medium", serif;
+    font-size: 102.2px;
+    line-height: 97.09px;
+    text-align: left;
+    max-width: 765px;
+
+    margin-bottom: 17px;
+  }
+
+  &__titleGroup-btn {
+    font-size: 28px;
+    line-height: 26.04px;
+    letter-spacing: -0.03em;
+    padding: 20px 56px;
+    margin-bottom: 117px;
+  }
+
+  &__titleGroup-subtitle {
+    font-family: "Nekst-SemiBold", serif;
+    font-size: 30px;
+    line-height: 33.9px;
+    text-align: left;
+    color: #ffffff;
+    max-width: 397px;
+    margin-bottom: 27px;
+  }
+
+  &__btnGroup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 63px;
+  }
+
+  &__btnGroup-cryp {
+    background-color: rgba(14, 9, 21, 1);
+    border: 1px solid transparent;
+  }
+  &__btnGroup-cryp:hover {
+    border: 1px solid transparent;
+    background: linear-gradient(#000, #000) padding-box,
+      linear-gradient(180deg, #5a2fed 0%, #8f00ff 100%) border-box;
+    border-radius: 30px;
+  }
+}
+
+.gradientTitle {
+  background-image: linear-gradient(251.46deg, #ffffff 13.67%, #5f29b7 124.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn {
+  font-family: "Nekst-SemiBold", serif;
+  background-color: rgba(95, 41, 183, 1);
+  border: none;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.crypto-btn {
+  padding: 42px 60px;
+  border-radius: 30px;
+  width: 237px;
+  cursor: pointer;
+  transition: all 0.5s;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="signIn">
+        <div class="formContainer">
+          <p class="signIn__title gradientTitle">Sign in</p>
+          <p class="signIn__info">
+            New user?<a href="#" class="signIn__link">Create an account</a>
+          </p>
+          <form action="" method="get" class="formSign">
+            <div class="formSign__body">
+              <label class="formSign__body-email" for="email"
+                >Enter email:</label
+              >
+              <input
+                class="formSign__body-input"
+                type="email"
+                name="email"
+                id="email"
+                required
+              />
+            </div>
+            <button class="formSign__body-btn" type="submit">Send</button>
+          </form>
+          <div class="btnGroup">
+            <span class="btnGroup__title">Or</span>
+            <button class="btnGroup__google group">
+              <img
+                class="btnGroup__img"
+                src="../images/google.svg"
+                alt="googleIcon"
+              />
+              <p class="btnGroup__google-text">Continue with Google</p>
+            </button>
+            <button class="btnGroup__facebook group">
+              <img
+                class="btnGroup__img"
+                src="../images/facebook.svg"
+                alt="facebookIcon"
+              />
+              <p class="btnGroup__facebook-text">Continue with Facebook</p>
+            </button>
+            <button class="btnGroup__apple group">
+              <img
+                class="btnGroup__img"
+                src="../images/apple.svg"
+                alt="appleIcon"
+              />
+              <p class="btnGroup__apple-text">Continue with Apple</p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

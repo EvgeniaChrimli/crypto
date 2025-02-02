@@ -1,0 +1,1149 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul a {
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+.wrapper {
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Nekst-Medium", serif;
+  padding: 17px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 24.75px;
+  letter-spacing: -0.03em;
+}
+.header__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+}
+
+.language-group {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  font-family: "Nekst-Light", serif;
+}
+.language-group__arrow {
+  cursor: pointer;
+}
+
+.show-list {
+  position: absolute;
+  top: 50px;
+  background-color: rgba(95, 41, 183, 0.9);
+  width: 99px;
+  height: 148px;
+  border-radius: 20px;
+  display: none;
+}
+.show-list__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 49px 13px 19px;
+}
+.show-list__item {
+  font-family: "Nekst-Light", serif;
+  cursor: pointer;
+  transition: all 1s;
+  scale: 0.8;
+}
+.show-list__item:hover {
+  scale: 1;
+}
+
+.show-list-active {
+  display: block;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+.nav__list {
+  display: flex;
+  gap: 57px;
+}
+.nav__list-link {
+  color: #fff;
+  transition: all 1s;
+  cursor: pointer;
+}
+.nav__list-link:hover {
+  color: rgb(144, 75, 255);
+}
+.nav__button {
+  background-color: rgb(95, 41, 183);
+  font-size: 25px;
+  padding: 17px 26px 18px 37px;
+  border: none;
+  transition: all 1s;
+}
+.nav__button:hover {
+  background-color: rgb(132, 65, 241);
+}
+.nav__button:active {
+  scale: 0.8;
+}
+.nav__button-text {
+  margin-right: 8px;
+}
+.active {
+  color: rgb(144, 75, 255);
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 42.66px;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+.wrap {
+  background-image: url(../images/backLines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 250px;
+  height: 100vh;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.signIn {
+  color: #fff;
+  font-family: "Nekst-Medium", serif;
+}
+.signIn__title {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.signIn__info {
+  font-size: 27px;
+  margin-bottom: 40px;
+}
+.signIn__link {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 19px;
+}
+
+.formSign {
+  display: flex;
+  flex-direction: column;
+}
+.formSign__body {
+  display: flex;
+  flex-direction: column;
+}
+.formSign__body-email {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.formSign__body-input {
+  width: 380px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.formSign__body-btn {
+  font-family: "Nekst-Medium", serif;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  padding: 7px 30px;
+  align-self: end;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.btnGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btnGroup__title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.btnGroup__img {
+  width: 20px;
+  margin-right: 10px;
+}
+.btnGroup__google-text {
+  font-family: "Nekst-Light", serif;
+}
+.btnGroup__facebook-text {
+  font-family: "Nekst-Light", serif;
+}
+.btnGroup__apple-text {
+  font-family: "Nekst-Light", serif;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  width: 330px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding: 16px 22px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff), format("woff");
+}
+.container {
+  margin: 0 auto;
+  max-width: 1650px;
+}
+
+.top {
+  background-image: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: 90px;
+  height: 85vh;
+}
+.top__titleGroup-title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 102.2px;
+  line-height: 97.09px;
+  text-align: left;
+  max-width: 765px;
+  margin-bottom: 17px;
+}
+.top__titleGroup-btn {
+  font-size: 28px;
+  line-height: 26.04px;
+  letter-spacing: -0.03em;
+  padding: 20px 56px;
+  margin-bottom: 117px;
+}
+.top__titleGroup-subtitle {
+  font-family: "Nekst-SemiBold", serif;
+  font-size: 30px;
+  line-height: 33.9px;
+  text-align: left;
+  color: #ffffff;
+  max-width: 397px;
+  margin-bottom: 27px;
+}
+.top__btnGroup {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-bottom: 63px;
+}
+.top__btnGroup-cryp {
+  background-color: rgb(14, 9, 21);
+  border: 1px solid transparent;
+}
+.top__btnGroup-cryp:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(#000, #000) padding-box, linear-gradient(180deg, #5a2fed 0%, #8f00ff 100%) border-box;
+  border-radius: 30px;
+}
+
+.gradientTitle {
+  background-image: linear-gradient(251.46deg, #ffffff 13.67%, #5f29b7 124.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  font-family: "Nekst-SemiBold", serif;
+  background-color: rgb(95, 41, 183);
+  border: none;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.crypto-btn {
+  padding: 42px 60px;
+  border-radius: 30px;
+  width: 237px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.benefits__body {
+  display: flex;
+  margin-left: 80px;
+}
+.about-title {
+  font-family: "Nekst-Light", serif;
+  font-size: 130px;
+  line-height: 120.9px;
+  margin-bottom: 100px;
+}
+
+.about-info {
+  display: flex;
+  gap: 50px;
+  font-family: "Nekst-Regular", serif;
+  color: #fff;
+}
+.about-info__left {
+  font-size: 40px;
+  line-height: 37.2px;
+}
+.about-info__right {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18.54px;
+}
+
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.numbers {
+  background-image: url(../images/backLines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 90px;
+}
+.numbers__grid {
+  display: grid;
+  grid-template-columns: 50% repeat(2, 376px);
+  grid-template-rows: 1fr, 82px, repeat(2fr);
+  margin-left: 81px;
+  gap: 33px;
+  color: #fff;
+}
+.numbers__grid-one {
+  font-family: "Nekst-Light", serif;
+  font-size: 250px;
+  line-height: 232.5px;
+  text-align: left;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.numbers__grid-two {
+  grid-column: 1;
+  grid-row: 2;
+  font-family: "Nekst-Regular", serif;
+  font-size: 40px;
+  line-height: 41.2px;
+  margin-left: 27px;
+}
+.numbers__grid-three {
+  grid-column: 1;
+  grid-row: 4;
+  margin-left: 27px;
+  font-family: "Nekst-Regular", serif;
+  font-size: 15px;
+  line-height: 15.45px;
+}
+.numbers__grid-four {
+  grid-column: 2;
+  grid-row: 3;
+}
+.numbers__grid-five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.numbers__grid-six {
+  grid-column: 3/4;
+  grid-row: 4;
+}
+
+.area {
+  padding: 42px 42px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.area__title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 60px;
+  line-height: 55.8px;
+}
+.area__subtitle {
+  font-family: " Nekst-Regular", serif;
+  font-size: 15px;
+  line-height: 15.45px;
+}
+
+.cardNum {
+  display: flex;
+  flex-direction: column;
+  gap: 123px;
+}
+
+.num {
+  font-family: "Nekst-Light", serif;
+  font-size: 80px;
+  line-height: 74.4px;
+  margin: 42px 0 0 30px;
+}
+
+.info {
+  font-family: "Nekst-Regular", serif;
+  font-size: 20px;
+  line-height: 20.6px;
+  margin: 0 0 32px 30px;
+}
+
+.border {
+  border: 1px solid transparent;
+  background: linear-gradient(#000, #000) padding-box, linear-gradient(96.63deg, #ffffff 5.78%, #5f29b7 72.85%) border-box;
+  border-radius: 30px;
+}
+
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.multichart {
+  display: flex;
+  flex-direction: column;
+  gap: 322px;
+  justify-content: center;
+  margin-left: 60px;
+  padding-top: 222px;
+}
+.multichart__top {
+  display: flex;
+}
+.multichart__bottom {
+  display: flex;
+}
+
+.active-text {
+  color: rgb(255, 255, 255);
+}
+
+.top-body__title {
+  font-family: "Nekst-Light", serif;
+  font-size: 130px;
+  line-height: 120.9px;
+}
+.top-body__subtitle {
+  font-family: "Nekst-Medium", serif;
+  font-size: 40px;
+  line-height: 43.2px;
+  color: #7b708d;
+  max-width: 571px;
+  padding-top: 109px;
+}
+.bottom-body__title {
+  font-family: "Nekst-Light", serif;
+  font-size: 130px;
+  line-height: 120.9px;
+}
+.bottom-body__subtitle {
+  font-family: "Nekst-Medium", serif;
+  font-size: 40px;
+  line-height: 43.2px;
+  color: #fff;
+  max-width: 571px;
+  padding-top: 109px;
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.sliders {
+  padding-top: 266px;
+  margin-bottom: 100px;
+}
+.sliders__title {
+  font-family: "Nekst-Regular", serif;
+  font-size: 90px;
+  line-height: 92.7px;
+  margin-left: 40px;
+  max-width: 950px;
+  margin-bottom: 115px;
+}
+
+.image-slider__wrapper {
+  display: flex;
+  gap: 30px;
+  margin-left: 208px;
+  align-items: stretch;
+}
+.image-slider__container {
+  display: flex;
+  flex-direction: column;
+  padding: 39px 39px 44px 30px;
+  color: #fff;
+  border: 1px solid #402e5c;
+  border-radius: 40px;
+  gap: 40px;
+  max-width: 300px;
+  height: auto;
+}
+.image-slider__title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 34px;
+  line-height: 31.62px;
+}
+.image-slider__image {
+  max-width: 114px;
+}
+.image-slider__text {
+  font-family: "Nekst-Medium", serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  color: rgb(233, 227, 244);
+}
+
+.swiper {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  gap: 15px;
+  margin-bottom: 74px;
+  cursor: pointer;
+}
+
+.prev {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 33px;
+  transition: all 0.5s;
+}
+
+.next {
+  border-radius: 70px;
+  border: 1px solid #fff;
+  padding: 33px 71px;
+  transition: all 0.5s;
+}
+
+.next:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(#000, #000) padding-box, linear-gradient(180deg, #5a2fed 0%, #8f00ff 100%) border-box;
+  border-radius: 70px;
+}
+
+.prev:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(#000, #000) padding-box, linear-gradient(180deg, #c2bbde 0%, #2c028d 100%) border-box;
+  border-radius: 50%;
+}
+
+.scrollbar {
+  margin-top: 30px;
+  margin-left: 208px;
+  background-color: rgb(64, 46, 92);
+  max-width: 621px;
+  height: 5px;
+}
+
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+.trade {
+  background-image: url(../images/trade.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 116px;
+  font-family: "Nekst-Regular", serif;
+  color: rgb(255, 255, 255);
+  height: 80vh;
+}
+.trade__title {
+  font-size: 130px;
+  line-height: 120.9px;
+  margin: 0 0 168px 30px;
+}
+.trade__text {
+  font-size: 40px;
+  line-height: 48px;
+  margin: 0 0 118px 30px;
+  max-width: 414px;
+}
+
+.wideBtn {
+  margin: 0 auto;
+  padding: 30px 70px;
+  font-family: "Nekst-SemiBold", serif;
+  font-size: 40px;
+  line-height: 41.85px;
+}
+
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
+}
+.features {
+  background: linear-gradient(125.96deg, #7061aa -34.49%, #340e73 85.02%);
+  border-radius: 41px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+}
+.features-container__list {
+  padding-top: 90px;
+  margin-left: 20px;
+  flex-basis: 600px;
+  transition: all 1s;
+}
+.features-container__items {
+  color: rgb(126, 99, 185);
+  font-family: "Nekst-Medium", serif;
+  font-size: 24px;
+  line-height: 36px;
+  cursor: pointer;
+}
+
+.active-item {
+  color: #fff;
+}
+
+.body-slide {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 100px;
+  padding: 0 30px;
+  background-color: rgb(109, 69, 185);
+  width: 622px;
+  height: 439px;
+  border-radius: 38px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body-slide__row {
+  display: flex;
+  align-items: center;
+  gap: 101px;
+}
+.body-slide__about {
+  font-family: "Nekst-Medium", serif;
+  font-size: 15.88px;
+  font-weight: 400;
+  line-height: 22.23px;
+  margin-bottom: 37px;
+}
+.body-slide__btn {
+  font-family: "Nekst-SemiBold", serif;
+  font-size: 15.12px;
+  line-height: 18.15px;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  max-width: 185px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid rgb(180, 150, 238);
+  border-radius: 44px;
+  padding: 18px 27px;
+  margin-bottom: 61px;
+  cursor: pointer;
+}
+
+.row-title {
+  padding-top: 77px;
+  font-family: "Nekst-Regular", serif;
+  font-size: 60px;
+  line-height: 49.8px;
+  margin-bottom: 18px;
+}
+
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+.security__title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 90px;
+  line-height: 92.7px;
+  padding-top: 100px;
+  color: rgb(255, 255, 255);
+  margin: 0 0 10px 50px;
+}
+.security__body {
+  display: flex;
+}
+
+.body-image__img {
+  max-width: 965px;
+  background-position: 3% 3%;
+}
+
+.body-about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 41px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+.body-about__card-wrapper {
+  border: 1px solid rgb(64, 46, 92);
+  border-radius: 40px;
+  max-width: 304px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 35px 25px;
+}
+
+.card-title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 34px;
+  line-height: 31.62px;
+  margin-bottom: 50px;
+}
+
+.card-img {
+  margin-bottom: 220px;
+}
+
+.card-text {
+  font-family: "Nekst-Light", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff), format("woff");
+}
+.partners {
+  margin-top: 98px;
+  background: linear-gradient(125.96deg, #7061aa -34.49%, #340e73 85.02%);
+  border-radius: 41px;
+}
+.partners__title-group {
+  display: flex;
+  margin-left: 50px;
+  gap: 350px;
+  padding-top: 20px;
+}
+
+.partners-title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 90px;
+  line-height: 92.7px;
+  color: rgb(255, 255, 255);
+}
+
+.partners-subtitle {
+  font-family: "Nekst-SemiBold", serif;
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 60px;
+  background: linear-gradient(96.63deg, #ffffff 5.78%, #bfa5ea 72.85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 692px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+}
+.btn-group__body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 140px;
+  margin-bottom: 131px;
+}
+.btn-group__button {
+  border: 1px solid rgb(180, 150, 238);
+  background-color: transparent;
+}
+.btn-group__button:hover {
+  border: 1px solid rgb(255, 255, 255);
+  scale: 1.1;
+}
+.btn-group__text {
+  font-family: "Nekst-SemiBold", serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgb(170, 135, 226);
+}
+
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.footer {
+  background-color: rgb(23, 16, 34);
+  border-radius: 40px;
+  padding: 36px 53px 70px 53px;
+}
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body-social__title {
+  margin-bottom: 32px;
+}
+
+.social-group {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 69px;
+}
+.social-group__item {
+  cursor: pointer;
+}
+.social-group__info {
+  font-family: "Nekst-Regular", serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: rgb(255, 255, 255);
+}
+
+.body-documents__about {
+  margin-bottom: 10px;
+}
+
+.body-platform__about {
+  margin-bottom: 10px;
+}
+
+.same-text {
+  font-family: "Nekst-Regular", serif;
+  font-size: 17px;
+  line-height: 17px;
+  color: rgb(143, 136, 154);
+}
+
+.same-title {
+  font-family: "Nekst-Medium", serif;
+  font-size: 23px;
+  line-height: 22.77px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff), format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+.try {
+  background-image: url(../images/try.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+.try__title {
+  font-family: "Nekst-Regular", serif;
+  text-align: center;
+  font-size: 100px;
+  line-height: 93px;
+  padding-top: 120px;
+  margin-bottom: 236px;
+}
+.try__btn {
+  margin-bottom: 10px;
+  transition: all 1s;
+}
+.try__btn:hover {
+  color: rgb(126, 99, 185);
+}
+
+body {
+  background-color: #000;
+}/*# sourceMappingURL=styles.css.map */

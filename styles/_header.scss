@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+.wrapper {
+  background-color: rgba(0, 0, 0, 1);
+  margin: 0 auto;
+}
+.header {
+  font-family: "Nekst-Medium", serif;
+  padding: 17px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 24.75px;
+  letter-spacing: -0.03em;
+
+  &__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+  }
+}
+.header-logo {
+}
+.language-group {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  font-family: "Nekst-Light", serif;
+
+  &__elem {
+  }
+
+  &__arrow {
+    cursor: pointer;
+  }
+}
+.show-list {
+  position: absolute;
+  top: 50px;
+  background-color: rgba(95, 41, 183, 0.9);
+  width: 99px;
+  height: 148px;
+  border-radius: 20px;
+  display: none;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 49px 13px 19px;
+  }
+  &__item {
+    font-family: "Nekst-Light", serif;
+    cursor: pointer;
+    transition: all 1s;
+    scale: (0.8);
+  }
+  &__item:hover {
+    scale: (1);
+  }
+}
+
+.show-list-active {
+  display: block;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  &__list {
+    display: flex;
+    gap: 57px;
+  }
+
+  &__list-item {
+  }
+
+  &__list-link {
+    color: #fff;
+    transition: all 1s;
+    cursor: pointer;
+  }
+  &__list-link:hover {
+    color: rgba(144, 75, 255, 1);
+  }
+
+  &__button {
+    background-color: rgba(95, 41, 183, 1);
+    font-size: 25px;
+    padding: 17px 26px 18px 37px;
+    border: none;
+    transition: all 1s;
+  }
+  &__button:hover {
+    background-color: rgba(132, 65, 241, 1);
+  }
+  &__button:active {
+    scale: (0.8);
+  }
+
+  &__button-text {
+    margin-right: 8px;
+  }
+
+  &__button-image {
+  }
+}
+.active {
+  color: rgba(144, 75, 255, 1);
+}
+.button {
+  cursor: pointer;
+  border-radius: 42.66px;
+  color: #fff;
+}

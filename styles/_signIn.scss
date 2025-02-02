@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+.wrap {
+  background-image: url(../images/backLines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left 250px;
+  height: 100vh;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 170px;
+}
+.signIn {
+  color: #fff;
+  font-family: "Nekst-Medium", serif;
+
+  &__title {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  &__info {
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+
+  &__link {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 19px;
+  }
+}
+
+.formSign {
+  display: flex;
+  flex-direction: column;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__body-email {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__body-input {
+    width: 380px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: transparent;
+  }
+
+  &__body-btn {
+    font-family: "Nekst-Medium", serif;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    padding: 7px 30px;
+    align-self: end;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+}
+
+.btnGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    font-family: "Nekst-Medium", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__img {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  &__google-text {
+    font-family: "Nekst-Light", serif;
+  }
+
+  &__facebook-text {
+    font-family: "Nekst-Light", serif;
+  }
+
+  &__apple-text {
+    font-family: "Nekst-Light", serif;
+  }
+}
+.group {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  width: 330px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding: 16px 22px;
+  cursor: pointer;
+}

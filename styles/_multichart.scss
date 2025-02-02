@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.multichart {
+  display: flex;
+  flex-direction: column;
+  gap: 322px;
+  justify-content: center;
+  margin-left: 60px;
+  padding-top: 222px;
+  &__top {
+    display: flex;
+  }
+
+  &__bottom {
+    display: flex;
+  }
+}
+.active-text {
+  color: rgba(255, 255, 255, 1);
+}
+.top-body {
+  &__title {
+    font-family: "Nekst-Light", serif;
+    font-size: 130px;
+    line-height: 120.9px;
+  }
+
+  &__subtitle {
+    font-family: "Nekst-Medium", serif;
+    font-size: 40px;
+    line-height: 43.2px;
+    color: #7b708d;
+    max-width: 571px;
+    padding-top: 109px;
+  }
+
+  &__image {
+  }
+}
+.bottom-body {
+  &__title {
+    font-family: "Nekst-Light", serif;
+    font-size: 130px;
+    line-height: 120.9px;
+  }
+
+  &__subtitle {
+    font-family: "Nekst-Medium", serif;
+    font-size: 40px;
+    line-height: 43.2px;
+    color: #fff;
+    max-width: 571px;
+    padding-top: 109px;
+  }
+
+  &__image {
+  }
+}

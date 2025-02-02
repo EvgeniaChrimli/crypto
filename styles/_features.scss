@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
+}
+
+.features {
+  background: linear-gradient(125.96deg, #7061aa -34.49%, #340e73 85.02%);
+  border-radius: 41px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+
+  &__list {
+    padding-top: 90px;
+    margin-left: 20px;
+    flex-basis: 600px;
+    transition: all 1s;
+  }
+
+  &__items {
+    color: rgba(126, 99, 185, 1);
+    font-family: "Nekst-Medium", serif;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+  }
+}
+.active-item {
+  color: #fff;
+}
+.slide-container {
+}
+
+.body-slide {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 100px;
+  padding: 0 30px;
+  background-color: rgba(109, 69, 185, 1);
+  width: 622px;
+  height: 439px;
+  border-radius: 38px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__row {
+    display: flex;
+
+    align-items: center;
+    gap: 101px;
+  }
+  &__about {
+    font-family: "Nekst-Medium", serif;
+    font-size: 15.88px;
+    font-weight: 400;
+    line-height: 22.23px;
+    margin-bottom: 37px;
+  }
+  &__btn {
+    font-family: "Nekst-SemiBold", serif;
+    font-size: 15.12px;
+    line-height: 18.15px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 185px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid rgba(180, 150, 238, 1);
+    border-radius: 44px;
+    padding: 18px 27px;
+    margin-bottom: 61px;
+    cursor: pointer;
+  }
+}
+
+.row-title {
+  padding-top: 77px;
+  font-family: "Nekst-Regular", serif;
+  font-size: 60px;
+  line-height: 49.8px;
+  margin-bottom: 18px;
+}

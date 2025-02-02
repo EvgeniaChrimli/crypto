@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Nekst-SemiBold";
+  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+.trade {
+  background-image: url(../images/trade.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 116px;
+  font-family: "Nekst-Regular", serif;
+  color: rgba(255, 255, 255, 1);
+  height: 80vh;
+
+  &__title {
+    font-size: 130px;
+    line-height: 120.9px;
+    margin: 0 0 168px 30px;
+  }
+  &__text {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 0 118px 30px;
+    max-width: 414px;
+  }
+}
+
+.wideBtn {
+  margin: 0 auto;
+  padding: 30px 70px;
+  font-family: "Nekst-SemiBold", serif;
+  font-size: 40px;
+  line-height: 41.85px;
+}

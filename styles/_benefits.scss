@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.benefits {
+  &__body {
+    display: flex;
+    margin-left: 80px;
+  }
+
+  &__body-image {
+  }
+
+  &__body-about {
+  }
+}
+.about-title {
+  font-family: "Nekst-Light", serif;
+  font-size: 130px;
+  line-height: 120.9px;
+  margin-bottom: 100px;
+}
+
+.about-info {
+  display: flex;
+  gap: 50px;
+  font-family: "Nekst-Regular", serif;
+  color: #fff;
+
+  &__left {
+    font-size: 40px;
+    line-height: 37.2px;
+  }
+  &__right {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18.54px;
+  }
+}

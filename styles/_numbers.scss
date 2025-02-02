@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+.numbers {
+  background-image: url(../images/backLines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 90px;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: /*repeat(3, auto)*/ 50% repeat(2, 376px);
+    grid-template-rows: 1fr, 82px, repeat(2fr);
+    margin-left: 81px;
+    gap: 33px;
+    color: #fff;
+  }
+
+  &__grid-one {
+    font-family: "Nekst-Light", serif;
+    font-size: 250px;
+    line-height: 232.5px;
+    text-align: left;
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
+  &__grid-two {
+    grid-column: 1;
+    grid-row: 2;
+    font-family: "Nekst-Regular", serif;
+    font-size: 40px;
+    line-height: 41.2px;
+    margin-left: 27px;
+  }
+
+  &__grid-three {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 27px;
+    font-family: "Nekst-Regular", serif;
+    font-size: 15px;
+    line-height: 15.45px;
+  }
+
+  &__grid-four {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  &__grid-five {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  &__grid-six {
+    grid-column: 3/4;
+    grid-row: 4;
+  }
+}
+.area {
+  padding: 42px 42px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+
+  &__title {
+    font-family: "Nekst-Medium", serif;
+    font-size: 60px;
+    line-height: 55.8px;
+  }
+
+  &__subtitle {
+    font-family: " Nekst-Regular", serif;
+    font-size: 15px;
+    line-height: 15.45px;
+  }
+}
+.cardNum {
+  display: flex;
+  flex-direction: column;
+  gap: 123px;
+}
+
+.num {
+  font-family: "Nekst-Light", serif;
+  font-size: 80px;
+  line-height: 74.4px;
+  margin: 42px 0 0 30px;
+}
+.info {
+  font-family: "Nekst-Regular", serif;
+  font-size: 20px;
+  line-height: 20.6px;
+  margin: 0 0 32px 30px;
+}
+.border {
+  border: 1px solid transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(96.63deg, #ffffff 5.78%, #5f29b7 72.85%) border-box;
+  border-radius: 30px;
+}

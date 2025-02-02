@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Nekst-Light";
+  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Regular";
+  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Nekst-Medium";
+  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+}
+
+.sliders {
+  padding-top: 266px;
+  margin-bottom: 100px;
+  &__title {
+    font-family: "Nekst-Regular", serif;
+    font-size: 90px;
+    line-height: 92.7px;
+    margin-left: 40px;
+    max-width: 950px;
+    margin-bottom: 115px;
+  }
+}
+.image-slider {
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+    margin-left: 208px;
+    align-items: stretch;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding: 39px 39px 44px 30px;
+    color: #fff;
+    border: 1px solid #402e5c;
+    border-radius: 40px;
+    gap: 40px;
+    max-width: 300px;
+    height: auto;
+  }
+
+  &__title {
+    font-family: "Nekst-Medium", serif;
+    font-size: 34px;
+    line-height: 31.62px;
+  }
+
+  &__image {
+    max-width: 114px;
+  }
+
+  &__text {
+    font-family: "Nekst-Medium", serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgba(233, 227, 244, 1);
+  }
+}
+.swiper {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  gap: 15px;
+  margin-bottom: 74px;
+  cursor: pointer;
+}
+.prev {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 33px;
+  transition: all 0.5s;
+}
+.next {
+  border-radius: 70px;
+  border: 1px solid #fff;
+  padding: 33px 71px;
+  transition: all 0.5s;
+}
+.next:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, #5a2fed 0%, #8f00ff 100%) border-box;
+  border-radius: 70px;
+}
+
+.prev:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(180deg, #c2bbde 0%, #2c028d 100%) border-box;
+  border-radius: 50%;
+}
+
+.scrollbar {
+  margin-top: 30px;
+  margin-left: 208px;
+  background-color: rgba(64, 46, 92, 1);
+  max-width: 621px;
+  height: 5px;
+}
