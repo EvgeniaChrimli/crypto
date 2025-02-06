@@ -1,15 +1,4 @@
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
+@import "fonts";
 
 .features {
   background: linear-gradient(125.96deg, #7061aa -34.49%, #340e73 85.02%);

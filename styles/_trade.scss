@@ -1,11 +1,5 @@
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
+@import "fonts";
+
 .trade {
   background-image: url(../images/trade.png);
   background-position: top;

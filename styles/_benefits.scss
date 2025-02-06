@@ -1,15 +1,5 @@
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
+@import "fonts";
+
 .benefits {
   &__body {
     display: flex;

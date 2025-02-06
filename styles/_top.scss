@@ -1,21 +1,11 @@
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff), format("woff");
-}
+@import "fonts";
+
 .container {
   margin: 0 auto;
   max-width: 1650px;
 }
 .top {
-  background-image: url(../images/main.png);
+  background-image: url(../../crypto/images/main.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;

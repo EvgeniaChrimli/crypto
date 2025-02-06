@@ -1,11 +1,5 @@
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
+@import "fonts";
+
 .footer {
   background-color: rgba(23, 16, 34, 1);
   border-radius: 40px;

@@ -1,11 +1,5 @@
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
+@import "fonts";
+
 .wrap {
   background-image: url(../images/backLines.png);
   background-repeat: no-repeat;
