@@ -650,7 +650,6 @@ select {
   src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
 }
 .numbers {
-  background-image: url(../images/backLines.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -970,7 +969,6 @@ select {
   src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
 }
 .trade {
-  background-image: url(../images/trade.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
