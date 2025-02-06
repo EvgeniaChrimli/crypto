@@ -1383,7 +1383,6 @@ select {
   src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
 }
 .try {
-  background-image: url(../images/try.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
