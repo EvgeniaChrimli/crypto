@@ -199,7 +199,7 @@ select {
 }
 
 .header {
-  font-family: "Nekst-Medium";
+  font-family: "Nekst-Thin";
   padding: 40px;
   color: #fff;
   font-size: 25px;
@@ -217,7 +217,7 @@ select {
   position: relative;
   display: flex;
   gap: 8px;
-  font-family: "Nekst-Light";
+  font-family: "Nekst-Thin";
 }
 .language-group__arrow {
   cursor: pointer;
