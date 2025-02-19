@@ -1,19 +1,11 @@
-@import "fonts";
-
 .benefits {
   &__body {
     display: flex;
     margin-left: 80px;
   }
-
-  &__body-image {
-  }
-
-  &__body-about {
-  }
 }
 .about-title {
-  font-family: "Nekst-Light", serif;
+  font-family: $font-Nekst-Light;
   font-size: 130px;
   line-height: 120.9px;
   margin-bottom: 100px;
@@ -22,7 +14,7 @@
 .about-info {
   display: flex;
   gap: 50px;
-  font-family: "Nekst-Regular", serif;
+  font-family: $font-Nekst-Regular;
   color: #fff;
 
   &__left {

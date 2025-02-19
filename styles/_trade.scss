@@ -1,11 +1,9 @@
-@import "fonts";
-
 .trade {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 116px;
-  font-family: "Nekst-Regular", serif;
+  font-family: $font-Nekst-Regular;
   color: rgba(255, 255, 255, 1);
   height: 80vh;
 
@@ -25,7 +23,7 @@
 .wideBtn {
   margin: 0 auto;
   padding: 30px 70px;
-  font-family: "Nekst-SemiBold", serif;
+  font-family: $font-Nekst-SemiBold;
   font-size: 40px;
   line-height: 41.85px;
 }

@@ -4,7 +4,7 @@
   padding-top: 266px;
   margin-bottom: 100px;
   &__title {
-    font-family: "Nekst-Regular", serif;
+    font-family: $font-Nekst-Regular;
     font-size: 90px;
     line-height: 92.7px;
     margin-left: 40px;
@@ -33,7 +33,7 @@
   }
 
   &__title {
-    font-family: "Nekst-Medium", serif;
+    font-family: $font-Nekst-Medium;
     font-size: 34px;
     line-height: 31.62px;
   }
@@ -43,7 +43,7 @@
   }
 
   &__text {
-    font-family: "Nekst-Medium", serif;
+    font-family: $font-Nekst-Medium;
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;

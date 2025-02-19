@@ -1,12 +1,9 @@
-@import "fonts";
-
 .wrapper {
-  background-color: rgba(0, 0, 0, 1);
   margin: 0 auto;
 }
 .header {
-  font-family: "Nekst-Medium", serif;
-  padding: 17px;
+  font-family: $font-Nekst-Medium;
+  padding: 40px;
   color: #fff;
   font-size: 25px;
   line-height: 24.75px;
@@ -25,7 +22,7 @@
   position: relative;
   display: flex;
   gap: 8px;
-  font-family: "Nekst-Light", serif;
+  font-family: $font-Nekst-Light;
 
   &__elem {
   }
@@ -49,7 +46,7 @@
     padding: 15px 49px 13px 19px;
   }
   &__item {
-    font-family: "Nekst-Light", serif;
+    font-family: $font-Nekst-Light;
     cursor: pointer;
     transition: all 1s;
     scale: (0.8);
@@ -68,6 +65,7 @@
   align-items: center;
   justify-content: center;
   gap: 55px;
+
   &__list {
     display: flex;
     gap: 57px;
@@ -101,9 +99,6 @@
 
   &__button-text {
     margin-right: 8px;
-  }
-
-  &__button-image {
   }
 }
 .active {

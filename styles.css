@@ -168,68 +168,39 @@ select {
 
 @font-face {
   font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
+  src: url(assets/fonts/Nekst-Black.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
+  src: url(assets/fonts/Nekst-Bold.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+  src: url(assets/fonts/Nekst-Light.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+  src: url(assets/fonts/Nekst-Medium.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+  src: url(assets/fonts/Nekst-Regular.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
+  src: url(assets/fonts/Nekst-SemiBold.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
+  src: url(assets/fonts/Nekst-Thin.woff) format("woff");
 }
 .wrapper {
-  background-color: rgb(0, 0, 0);
   margin: 0 auto;
 }
 
 .header {
-  font-family: "Nekst-Medium", serif;
-  padding: 17px;
+  font-family: "Nekst-Medium";
+  padding: 40px;
   color: #fff;
   font-size: 25px;
   line-height: 24.75px;
@@ -246,7 +217,7 @@ select {
   position: relative;
   display: flex;
   gap: 8px;
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
 }
 .language-group__arrow {
   cursor: pointer;
@@ -268,7 +239,7 @@ select {
   padding: 15px 49px 13px 19px;
 }
 .show-list__item {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
   cursor: pointer;
   transition: all 1s;
   scale: 0.8;
@@ -315,6 +286,7 @@ select {
 .nav__button-text {
   margin-right: 8px;
 }
+
 .active {
   color: rgb(144, 75, 255);
 }
@@ -325,34 +297,6 @@ select {
   color: #fff;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .wrap {
   background-image: url(../images/backLines.png);
   background-repeat: no-repeat;
@@ -370,7 +314,7 @@ select {
 
 .signIn {
   color: #fff;
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
 }
 .signIn__title {
   font-size: 50px;
@@ -407,7 +351,7 @@ select {
   background: transparent;
 }
 .formSign__body-btn {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Light";
   font-size: 15px;
   border-radius: 5px;
   border: 1px solid #fff;
@@ -426,7 +370,7 @@ select {
   justify-content: center;
 }
 .btnGroup__title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -435,13 +379,13 @@ select {
   margin-right: 10px;
 }
 .btnGroup__google-text {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
 }
 .btnGroup__facebook-text {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
 }
 .btnGroup__apple-text {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
 }
 
 .group {
@@ -458,34 +402,6 @@ select {
   cursor: pointer;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .container {
   margin: 0 auto;
   max-width: 1650px;
@@ -499,7 +415,7 @@ select {
   height: 85vh;
 }
 .top__titleGroup-title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 102.2px;
   line-height: 97.09px;
   text-align: left;
@@ -514,7 +430,7 @@ select {
   margin-bottom: 117px;
 }
 .top__titleGroup-subtitle {
-  font-family: "Nekst-SemiBold", serif;
+  font-family: "Nekst-SemiBold";
   font-size: 30px;
   line-height: 33.9px;
   text-align: left;
@@ -566,40 +482,13 @@ select {
   transition: all 0.5s;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .benefits__body {
   display: flex;
   margin-left: 80px;
 }
+
 .about-title {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
   font-size: 130px;
   line-height: 120.9px;
   margin-bottom: 100px;
@@ -608,7 +497,7 @@ select {
 .about-info {
   display: flex;
   gap: 50px;
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   color: #fff;
 }
 .about-info__left {
@@ -621,34 +510,6 @@ select {
   line-height: 18.54px;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .numbers {
   background-repeat: no-repeat;
   background-size: cover;
@@ -664,7 +525,7 @@ select {
   color: #fff;
 }
 .numbers__grid-one {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
   font-size: 250px;
   line-height: 232.5px;
   text-align: left;
@@ -674,7 +535,7 @@ select {
 .numbers__grid-two {
   grid-column: 1;
   grid-row: 2;
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 40px;
   line-height: 41.2px;
   margin-left: 27px;
@@ -683,7 +544,7 @@ select {
   grid-column: 1;
   grid-row: 4;
   margin-left: 27px;
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 15px;
   line-height: 15.45px;
 }
@@ -709,12 +570,12 @@ select {
   margin-bottom: 12px;
 }
 .area__title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Light";
   font-size: 60px;
   line-height: 55.8px;
 }
 .area__subtitle {
-  font-family: " Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 15px;
   line-height: 15.45px;
 }
@@ -726,14 +587,14 @@ select {
 }
 
 .num {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
   font-size: 80px;
   line-height: 74.4px;
   margin: 42px 0 0 30px;
 }
 
 .info {
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 20px;
   line-height: 20.6px;
   margin: 0 0 32px 30px;
@@ -745,34 +606,6 @@ select {
   border-radius: 30px;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .multichart {
   display: flex;
   flex-direction: column;
@@ -793,12 +626,12 @@ select {
 }
 
 .top-body__title {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
   font-size: 130px;
   line-height: 120.9px;
 }
 .top-body__subtitle {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 40px;
   line-height: 43.2px;
   color: #7b708d;
@@ -806,52 +639,53 @@ select {
   padding-top: 109px;
 }
 .bottom-body__title {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
   font-size: 130px;
   line-height: 120.9px;
 }
 .bottom-body__subtitle {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 40px;
   line-height: 43.2px;
   color: #fff;
   max-width: 571px;
   padding-top: 109px;
 }
+
 @font-face {
   font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
+  src: url(assets/fonts/Nekst-Black.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
+  src: url(assets/fonts/Nekst-Bold.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
+  src: url(assets/fonts/Nekst-Light.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
+  src: url(assets/fonts/Nekst-Medium.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
+  src: url(assets/fonts/Nekst-Regular.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
+  src: url(assets/fonts/Nekst-SemiBold.woff) format("woff");
 }
 @font-face {
   font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
+  src: url(assets/fonts/Nekst-Thin.woff) format("woff");
 }
 .sliders {
   padding-top: 266px;
   margin-bottom: 100px;
 }
 .sliders__title {
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 90px;
   line-height: 92.7px;
   margin-left: 40px;
@@ -877,7 +711,7 @@ select {
   height: auto;
 }
 .image-slider__title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 34px;
   line-height: 31.62px;
 }
@@ -885,7 +719,7 @@ select {
   max-width: 114px;
 }
 .image-slider__text {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
@@ -940,40 +774,12 @@ select {
   height: 5px;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .trade {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 116px;
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   color: rgb(255, 255, 255);
   height: 80vh;
 }
@@ -992,39 +798,11 @@ select {
 .wideBtn {
   margin: 0 auto;
   padding: 30px 70px;
-  font-family: "Nekst-SemiBold", serif;
+  font-family: "Nekst-SemiBold";
   font-size: 40px;
   line-height: 41.85px;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .features {
   background: linear-gradient(125.96deg, #7061aa -34.49%, #340e73 85.02%);
   border-radius: 41px;
@@ -1042,7 +820,7 @@ select {
 }
 .features-container__items {
   color: rgb(126, 99, 185);
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 24px;
   line-height: 36px;
   cursor: pointer;
@@ -1072,14 +850,14 @@ select {
   gap: 101px;
 }
 .body-slide__about {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 15.88px;
   font-weight: 400;
   line-height: 22.23px;
   margin-bottom: 37px;
 }
 .body-slide__btn {
-  font-family: "Nekst-SemiBold", serif;
+  font-family: "Nekst-SemiBold";
   font-size: 15.12px;
   line-height: 18.15px;
   text-underline-position: from-font;
@@ -1097,42 +875,14 @@ select {
 
 .row-title {
   padding-top: 77px;
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 60px;
   line-height: 49.8px;
   margin-bottom: 18px;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .security__title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 90px;
   line-height: 92.7px;
   padding-top: 100px;
@@ -1166,7 +916,7 @@ select {
 }
 
 .card-title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 34px;
   line-height: 31.62px;
   margin-bottom: 50px;
@@ -1177,40 +927,12 @@ select {
 }
 
 .card-text {
-  font-family: "Nekst-Light", serif;
+  font-family: "Nekst-Light";
   font-size: 16px;
   font-weight: 400;
   line-height: 21.6px;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .partners {
   margin-top: 98px;
   background: linear-gradient(125.96deg, #7061aa -34.49%, #340e73 85.02%);
@@ -1224,14 +946,14 @@ select {
 }
 
 .partners-title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 90px;
   line-height: 92.7px;
   color: rgb(255, 255, 255);
 }
 
 .partners-subtitle {
-  font-family: "Nekst-SemiBold", serif;
+  font-family: "Nekst-SemiBold";
   font-size: 40px;
   line-height: 40px;
   padding-top: 60px;
@@ -1262,40 +984,12 @@ select {
   scale: 1.1;
 }
 .btn-group__text {
-  font-family: "Nekst-SemiBold", serif;
+  font-family: "Nekst-SemiBold";
   font-size: 12px;
   line-height: 15px;
   color: rgb(170, 135, 226);
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .footer {
   background-color: rgb(23, 16, 34);
   border-radius: 40px;
@@ -1324,7 +1018,7 @@ select {
   cursor: pointer;
 }
 .social-group__info {
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 17px;
   line-height: 17px;
   color: rgb(255, 255, 255);
@@ -1339,14 +1033,14 @@ select {
 }
 
 .same-text {
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   font-size: 17px;
   line-height: 17px;
   color: rgb(143, 136, 154);
 }
 
 .same-title {
-  font-family: "Nekst-Medium", serif;
+  font-family: "Nekst-Medium";
   font-size: 23px;
   line-height: 22.77px;
   color: rgb(255, 255, 255);
@@ -1354,34 +1048,6 @@ select {
   cursor: pointer;
 }
 
-@font-face {
-  font-family: "Nekst-Black";
-  src: url(../fonts/nekst/Nekst-Black.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Bold";
-  src: url(../fonts/nekst/Nekst-Bold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Light";
-  src: url(../fonts/nekst/Nekst-Light.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Medium";
-  src: url(../fonts/nekst/Nekst-Medium.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Regular";
-  src: url(../fonts/nekst/Nekst-Regular.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-SemiBold";
-  src: url(../fonts/nekst/Nekst-SemiBold.woff) format("woff");
-}
-@font-face {
-  font-family: "Nekst-Thin";
-  src: url(../fonts/nekst/Nekst-Thin.woff) format("woff");
-}
 .try {
   background-position: top;
   background-repeat: no-repeat;
@@ -1389,7 +1055,7 @@ select {
   height: 70vh;
 }
 .try__title {
-  font-family: "Nekst-Regular", serif;
+  font-family: "Nekst-Regular";
   text-align: center;
   font-size: 100px;
   line-height: 93px;

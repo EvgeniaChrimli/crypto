@@ -1,5 +1,3 @@
-@import "fonts";
-
 .partners {
   margin-top: 98px;
   background: linear-gradient(125.96deg, #7061aa -34.49%, #340e73 85.02%);
@@ -12,13 +10,13 @@
   }
 }
 .partners-title {
-  font-family: "Nekst-Medium", serif;
+  font-family: $font-Nekst-Medium;
   font-size: 90px;
   line-height: 92.7px;
   color: rgba(255, 255, 255, 1);
 }
 .partners-subtitle {
-  font-family: "Nekst-SemiBold", serif;
+  font-family: $font-Nekst-SemiBold;
   font-size: 40px;
   line-height: 40px;
   padding-top: 60px;
@@ -49,7 +47,7 @@
   }
 
   &__text {
-    font-family: "Nekst-SemiBold", serif;
+    font-family: $font-Nekst-SemiBold;
     font-size: 12px;
     line-height: 15px;
     color: rgba(170, 135, 226, 1);

@@ -1,5 +1,3 @@
-@import "fonts";
-
 .wrap {
   background-image: url(../images/backLines.png);
   background-repeat: no-repeat;
@@ -15,7 +13,7 @@
 }
 .signIn {
   color: #fff;
-  font-family: "Nekst-Medium", serif;
+  font-family: $font-Nekst-Medium;
 
   &__title {
     font-size: 50px;
@@ -58,7 +56,7 @@
   }
 
   &__body-btn {
-    font-family: "Nekst-Medium", serif;
+    font-family: $font-Nekst-Light;
     font-size: 15px;
     border-radius: 5px;
     border: 1px solid #fff;
@@ -78,7 +76,7 @@
   justify-content: center;
 
   &__title {
-    font-family: "Nekst-Medium", serif;
+    font-family: $font-Nekst-Medium;
     font-size: 20px;
     margin-bottom: 10px;
   }
@@ -89,15 +87,15 @@
   }
 
   &__google-text {
-    font-family: "Nekst-Light", serif;
+    font-family: $font-Nekst-Light;
   }
 
   &__facebook-text {
-    font-family: "Nekst-Light", serif;
+    font-family: $font-Nekst-Light;
   }
 
   &__apple-text {
-    font-family: "Nekst-Light", serif;
+    font-family: $font-Nekst-Light;
   }
 }
 .group {
