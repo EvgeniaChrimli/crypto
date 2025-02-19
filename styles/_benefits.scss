@@ -2,6 +2,16 @@
   &__body {
     display: flex;
     margin-left: 80px;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__body-img {
+    width: 100%;
+    flex-basis: 50%;
   }
 }
 .about-title {
@@ -9,6 +19,12 @@
   font-size: 130px;
   line-height: 120.9px;
   margin-bottom: 100px;
+
+  @media (max-width: 1000px) {
+    font-size: calc(1rem + 3.25vw);
+    text-align: center;
+    margin-bottom: 50px;
+  }
 }
 
 .about-info {
@@ -16,6 +32,12 @@
   gap: 50px;
   font-family: $font-Nekst-Regular;
   color: #fff;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
 
   &__left {
     font-size: 40px;
@@ -25,5 +47,8 @@
     font-size: 18px;
     font-weight: 300;
     line-height: 18.54px;
+    @media (max-width: 1000px) {
+      text-align: center;
+    }
   }
 }

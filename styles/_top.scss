@@ -7,8 +7,14 @@
   background-size: cover;
   background-position: top;
   margin-top: 90px;
-  height: 85vh;
+
   &__titleGroup {
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   &__titleGroup-title {
@@ -17,8 +23,12 @@
     line-height: 97.09px;
     text-align: left;
     max-width: 765px;
-
     margin-bottom: 17px;
+    @media (max-width: 1000px) {
+      font-size: calc(1rem + 10.25vw);
+      text-align: center;
+      margin-top: -90px;
+    }
   }
 
   &__titleGroup-btn {
@@ -37,6 +47,9 @@
     color: #ffffff;
     max-width: 397px;
     margin-bottom: 27px;
+    @media (max-width: 1000px) {
+      text-align: center;
+    }
   }
 
   &__btnGroup {
@@ -83,4 +96,15 @@
   width: 237px;
   cursor: pointer;
   transition: all 0.5s;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding-top: 73px;
+
+  &__img {
+    width: 100%;
+    flex-basis: 50%;
+  }
 }

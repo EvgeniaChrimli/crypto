@@ -68,3 +68,10 @@ features.map((item) => {
   };
   listItem.addEventListener("click", listClick);
 });
+
+const nav = document.querySelector(".nav-mobile");
+const navList = document.querySelector(".nav__list");
+nav.addEventListener("click", () => {
+  navList.classList.toggle("list-active");
+  console.log("click");
+});

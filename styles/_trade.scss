@@ -7,11 +7,16 @@
   color: rgba(255, 255, 255, 1);
   height: 80vh;
 
+  @media (max-width: 1000px) {
+    display: none;
+  }
+
   &__title {
     font-size: 130px;
     line-height: 120.9px;
     margin: 0 0 168px 30px;
   }
+
   &__text {
     font-size: 40px;
     line-height: 48px;

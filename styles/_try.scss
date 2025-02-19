@@ -11,11 +11,20 @@
     line-height: 93px;
     padding-top: 120px;
     margin-bottom: 236px;
+
+    @media (max-width: 1000px) {
+      margin-bottom: 136px;
+    }
   }
 
   &__btn {
     margin-bottom: 10px;
     transition: all 1s;
+
+    @media (max-width: 1000px) {
+      padding: 10px 15px;
+      font-size: 19px;
+    }
   }
   &__btn:hover {
     color: rgba(126, 99, 185, 1);

@@ -6,17 +6,28 @@
 .features-container {
   display: flex;
   justify-content: center;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__list {
     padding-top: 90px;
     margin-left: 20px;
     flex-basis: 600px;
     transition: all 1s;
+    @media (max-width: 1000px) {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 0;
+      margin-bottom: 40px;
+      text-align: center;
+    }
   }
 
   &__items {
     color: rgba(126, 99, 185, 1);
-    font-family: $font-Nekst-Medium;
+    font-family: $font-Nekst-Light;
     font-size: 24px;
     line-height: 36px;
     cursor: pointer;
@@ -26,6 +37,9 @@
   color: #fff;
 }
 .slide-container {
+  @media (max-width: 1000px) {
+    padding-bottom: 65px;
+  }
 }
 
 .body-slide {
@@ -42,11 +56,18 @@
   flex-direction: column;
   justify-content: space-between;
 
+  @media (max-width: 1000px) {
+    width: auto;
+    margin: 0 10px;
+  }
+
   &__row {
     display: flex;
-
     align-items: center;
     gap: 101px;
+    @media (max-width: 1000px) {
+      gap: 10px;
+    }
   }
   &__about {
     font-family: $font-Nekst-Medium;
@@ -54,6 +75,10 @@
     font-weight: 400;
     line-height: 22.23px;
     margin-bottom: 37px;
+
+    @media (max-width: 1000px) {
+      margin-bottom: 15px;
+    }
   }
   &__btn {
     font-family: $font-Nekst-SemiBold;
@@ -69,6 +94,9 @@
     padding: 18px 27px;
     margin-bottom: 61px;
     cursor: pointer;
+    @media (max-width: 1000px) {
+      margin-bottom: 15px;
+    }
   }
 }
 
@@ -78,4 +106,10 @@
   font-size: 60px;
   line-height: 49.8px;
   margin-bottom: 18px;
+}
+
+@media (max-width: 1000px) {
+  .row-title {
+    font-size: calc(1rem + 2.25vw);
+  }
 }

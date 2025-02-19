@@ -6,6 +6,10 @@
   &__body {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 }
 .body-logo {
@@ -39,10 +43,24 @@
   &__about {
     margin-bottom: 10px;
   }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 }
 .body-platform {
   &__about {
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.body-register {
+  @media (max-width: 1000px) {
+    padding-top: 15px;
   }
 }
 
