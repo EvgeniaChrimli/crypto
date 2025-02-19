@@ -1404,6 +1404,7 @@ select {
 @media (max-width: 1000px) {
   .try__title {
     margin-bottom: 136px;
+    font-size: calc(1rem + 6.25vw);
   }
 }
 .try__btn {
@@ -1414,6 +1415,7 @@ select {
   .try__btn {
     padding: 10px 15px;
     font-size: 19px;
+    margin-bottom: 30px;
   }
 }
 .try__btn:hover {
